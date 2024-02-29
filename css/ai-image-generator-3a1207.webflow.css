@@ -1,7 +1,7 @@
 :root {
   --light-green: #f3fcff;
-  --light-blue: #90e3ff;
   --lighter-dark-green: #003d47;
+  --light-blue: #90e3ff;
   --dark-green: #002d35;
   --shadow-light: #bceeff;
   --white: white;
@@ -40,8 +40,8 @@
   max-width: 35rem;
   min-height: 20rem;
   min-width: 35rem;
-  border: 2px solid var(--light-blue);
   background-color: var(--light-green);
+  border: 2px solid #ff66c4;
   border-radius: 30px;
   flex-direction: column;
   justify-content: center;
@@ -221,7 +221,7 @@
   max-width: 35rem;
   min-height: 20rem;
   min-width: 35rem;
-  border: 2px solid var(--light-blue);
+  border: 2px solid #ff66c4;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
@@ -243,8 +243,8 @@
   max-width: 35px;
   min-height: 20rem;
   min-width: 35rem;
-  border: 2px solid var(--light-blue);
   background-color: var(--dark-green);
+  border: 2px solid #ff66c4;
   border-radius: 35px;
   flex-direction: column;
   justify-content: center;
@@ -368,6 +368,7 @@
   width: 100%;
   height: 21rem;
   background-color: var(--dark-green);
+  border: 1px solid #ff66c4;
   justify-content: center;
   align-items: center;
   padding-bottom: 0;
@@ -414,7 +415,7 @@
   padding: .3rem 1rem;
   text-decoration: none;
   transition: color .2s, background-color .2s;
-  display: none;
+  display: block;
   position: fixed;
 }
 
@@ -489,7 +490,7 @@
 .color-body {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
-  background-image: radial-gradient(circle, #8ae2ff, rgba(255, 255, 255, 0));
+  background-image: linear-gradient(#ff66c4, #ff66c4);
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
