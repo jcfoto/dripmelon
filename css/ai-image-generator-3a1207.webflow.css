@@ -35,6 +35,10 @@
   display: flex;
 }
 
+a[href="https://wized.com?utm_campaign=badge"] {
+    display: none !important;
+}
+
 .api-module {
   max-height: 20rem;
   max-width: 35rem;
