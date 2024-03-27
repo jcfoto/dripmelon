@@ -589,6 +589,15 @@ a[href="https://wized.com?utm_campaign=badge"] {
   right: -.5rem;
 }
 
+.heading-7 {
+  color: var(--light-green);
+  margin-top: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 700;
+}
+
 @media screen and (max-width: 479px) {
   .page-div {
     padding: 1.5rem;
@@ -655,4 +664,8 @@ a[href="https://wized.com?utm_campaign=badge"] {
   }
 }
 
+  .heading-7 {
+    font-size: 10px;
+  }
+}
 
