@@ -4,6 +4,7 @@
   --light-blue: #90e3ff;
   --dark-green: #002d35;
   --shadow-light: #bceeff;
+  --light-pink: #ffd0ed;
   --white: white;
   --black: black;
 }
@@ -15,14 +16,14 @@
 }
 
 .page-div {
-  width: 100%;
-  height: 100%;
-  min-height: 100vh;
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
   padding: 5rem 3rem;
   display: flex;
 }
@@ -36,20 +37,20 @@
 }
 
 a[href="https://wized.com?utm_campaign=badge"] {
-    display: none !important;
+  display: none !important;
 }
 
 .api-module {
-  max-height: 20rem;
-  max-width: 35rem;
-  min-height: 20rem;
-  min-width: 35rem;
   background-color: var(--light-green);
   border: 2px solid #ff66c4;
   border-radius: 30px;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  min-width: 35rem;
+  max-width: 35rem;
+  min-height: 20rem;
+  max-height: 20rem;
   padding: 1.5rem 3rem;
   display: flex;
   position: relative;
@@ -68,23 +69,23 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .api-form-block {
-  width: 100%;
-  height: 100%;
-  max-width: 35rem;
-  min-width: 35rem;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  min-width: 35rem;
+  max-width: 35rem;
+  height: 100%;
   margin-bottom: 0;
   padding: 1.5rem;
   display: flex;
 }
 
 .api-form {
-  width: 100%;
-  height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 
@@ -102,10 +103,6 @@ a[href="https://wized.com?utm_campaign=badge"] {
   margin-bottom: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Noto Sans, Ubuntu, Cantarell, Helvetica Neue, Oxygen, Fira Sans, Droid Sans, sans-serif;
   font-weight: 300;
-}
-
-.input-field::-ms-input-placeholder {
-  color: var(--light-green);
 }
 
 .input-field::placeholder {
@@ -134,21 +131,21 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .div-block-2 {
-  width: 100%;
-  height: 100%;
   border: 1px solid var(--light-blue);
   background-color: var(--light-green);
   border-radius: 5px;
+  width: 100%;
+  height: 100%;
 }
 
 .loading-state {
-  width: 100%;
-  height: 100%;
   background-color: var(--light-blue);
   border-radius: 10px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 
@@ -170,13 +167,13 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .html-loader.is-button {
-  width: 1.5rem;
-  height: 1.5rem;
   color: var(--light-green);
   background-color: rgba(243, 252, 255, 0);
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
   padding: 0;
   display: flex;
 }
@@ -221,14 +218,14 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .loading-module {
-  max-height: 20rem;
-  max-width: 35rem;
-  min-height: 20rem;
-  min-width: 35rem;
   border: 2px solid #ff66c4;
   border-radius: 30px;
   justify-content: center;
   align-items: center;
+  min-width: 35rem;
+  max-width: 35rem;
+  min-height: 20rem;
+  max-height: 20rem;
   padding-top: 0;
   display: flex;
   position: relative;
@@ -236,23 +233,23 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .image {
-  width: 100%;
-  height: 100%;
   aspect-ratio: 3 / 1.75;
   object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 .response-module {
-  max-height: 20px;
-  max-width: 35px;
-  min-height: 20rem;
-  min-width: 35rem;
   background-color: var(--dark-green);
   border: 2px solid #ff66c4;
   border-radius: 35px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 35rem;
+  max-width: 35px;
+  min-height: 20rem;
+  max-height: 20px;
   padding: 0;
   display: flex;
   position: relative;
@@ -273,10 +270,6 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .response-image {
-  max-height: 20px;
-  max-width: 35px;
-  min-height: 20rem;
-  min-width: 35rem;
   background-color: var(--dark-green);
   opacity: 1;
   object-fit: cover;
@@ -284,6 +277,10 @@ a[href="https://wized.com?utm_campaign=badge"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-width: 35rem;
+  max-width: 35px;
+  min-height: 20rem;
+  max-height: 20px;
   padding: 0;
   display: flex;
   overflow: hidden;
@@ -333,12 +330,12 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .icon-embed-xsmall {
-  width: 1.5rem;
-  height: 1.5rem;
   opacity: 1;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
   display: flex;
 }
 
@@ -359,22 +356,22 @@ a[href="https://wized.com?utm_campaign=badge"] {
 
 .background-video {
   z-index: 1;
-  width: 100%;
   color: var(--light-green);
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
   display: flex;
   position: absolute;
 }
 
 .gif {
-  width: 100%;
-  height: 21rem;
   background-color: var(--dark-green);
   border: 1px solid #ff66c4;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 21rem;
   padding-bottom: 0;
   padding-right: 0;
   display: block;
@@ -394,11 +391,11 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .icon-embed-xsmall-2 {
-  width: 1.1rem;
-  height: 1.1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 1.1rem;
+  height: 1.1rem;
   display: flex;
 }
 
@@ -435,20 +432,20 @@ a[href="https://wized.com?utm_campaign=badge"] {
 }
 
 .html-embed {
-  width: 7rem;
   color: var(--lighter-dark-green);
+  width: 7rem;
 }
 
 .html-embed.is-webflow {
+  color: var(--dark-green);
   width: 7.5rem;
   height: auto;
-  color: var(--dark-green);
 }
 
 .html-embed.is-wized {
+  color: var(--dark-green);
   width: 5rem;
   height: auto;
-  color: var(--dark-green);
   font-weight: 400;
 }
 
@@ -494,7 +491,9 @@ a[href="https://wized.com?utm_campaign=badge"] {
 .color-body {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
-  background-image: linear-gradient(#ff66c4, #ff66c4);
+  background-image: linear-gradient(rgba(255, 102, 196, .58), rgba(255, 102, 196, .58)), url('../images/Screenshot-2024-03-27-at-3.48.51-PM.png');
+  background-position: 0 0, 0 0;
+  background-size: auto, auto;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -521,10 +520,10 @@ a[href="https://wized.com?utm_campaign=badge"] {
 
 .warning-message {
   z-index: 1;
-  max-width: 20rem;
-  border: 1.5px solid var(--light-blue);
-  background-color: var(--shadow-light);
+  border: 1.5px solid var(--light-pink);
+  background-color: var(--light-pink);
   border-radius: 12px;
+  max-width: 20rem;
   margin-bottom: 0;
   margin-left: 0;
   padding: .3rem .3rem .3rem .75rem;
@@ -554,17 +553,17 @@ a[href="https://wized.com?utm_campaign=badge"] {
 
 .warning-icon {
   border: 1px solid var(--light-green);
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 154, 193, .78);
   border-radius: 8px;
   padding: .3rem;
 }
 
 .icon-embed-small {
-  width: 2rem;
-  height: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 2rem;
+  height: 2rem;
   display: flex;
 }
 
@@ -596,9 +595,9 @@ a[href="https://wized.com?utm_campaign=badge"] {
   }
 
   .api-module {
+    min-width: 100%;
     max-width: 100%;
     min-height: auto;
-    min-width: 100%;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
@@ -621,10 +620,10 @@ a[href="https://wized.com?utm_campaign=badge"] {
   }
 
   .loading-module {
-    max-height: 15px;
+    min-width: 100%;
     max-width: 100%;
     min-height: 15rem;
-    min-width: 100%;
+    max-height: 15px;
   }
 
   .image {
@@ -633,10 +632,10 @@ a[href="https://wized.com?utm_campaign=badge"] {
   }
 
   .response-module {
-    max-height: 15rem;
+    min-width: 100%;
     max-width: 100%;
     min-height: 15rem;
-    min-width: 100%;
+    max-height: 15rem;
   }
 
   .api-form-holder {
@@ -644,11 +643,11 @@ a[href="https://wized.com?utm_campaign=badge"] {
   }
 
   .response-image {
-    max-height: 15rem;
+    object-fit: cover;
+    min-width: 100%;
     max-width: 100%;
     min-height: 15rem;
-    min-width: 100%;
-    object-fit: cover;
+    max-height: 15rem;
   }
 
   .color-body {
