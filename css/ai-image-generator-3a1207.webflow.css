@@ -495,7 +495,9 @@
   grid-row-gap: 1rem;
   background-image: linear-gradient(rgba(255, 102, 196, .58), rgba(255, 102, 196, .58)), url('../images/Screenshot-2024-03-28-at-8.33.51-PM.png');
   background-position: 0 0, 50% 100%;
+  background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+  background-attachment: scroll, fixed;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
