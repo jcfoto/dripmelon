@@ -1,9 +1,9 @@
 <!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Thu Mar 28 2024 09:38:42 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Feb 29 2024 08:12:15 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="65cc28b0e6009966024d9a3c" data-wf-site="65cc28b0e6009966024d99da">
 <head>
   <meta charset="utf-8">
-  <title>AI Image Generator</title>
+  <title>DripMelon - AI Image Generator</title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -21,63 +21,59 @@
 </style>
 </head>
 <body class="color-body">
-  <div class="w-layout-vflex">
-    <div class="w-layout-vflex">
-      <div class="page-div">
-        <section><img src="images/dripmelon_logo.png" loading="lazy" width="500" sizes="(max-width: 479px) 100vw, 500px" alt="" srcset="images/dripmelon_logo-p-500.png 500w, images/dripmelon_logo-p-800.png 800w, images/dripmelon_logo-p-1080.png 1080w, images/dripmelon_logo.png 1428w"></section>
-        <section>
-          <h1 class="heading-7">Use your Melon to Create the Juice!</h1>
-        </section>
-        <div data-w-id="6cc526d0-6c0d-f56f-c80d-2fbae7266ca6" style="opacity:0" class="generator-holder">
-          <div wized-skeleton="1000" wized="inputHolder" class="api-module">
-            <div data-w-id="9dbb53c0-0938-26ac-414f-e5ae3649c8be" style="opacity:0;-webkit-transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="api-form-holder w-form">
-              <form id="email-form" name="email-form" data-name="Email Form" method="get" wized="apiForm" class="api-form" data-wf-page-id="65cc28b0e6009966024d9a3c" data-wf-element-id="9dbb53c0-0938-26ac-414f-e5ae3649c8bf">
-                <div class="w-layout-hflex prompt-holder"><input class="input-field w-input" wized="apiFieldInput" maxlength="256" name="field" data-name="Field" placeholder="Type your imagination here..." type="text" id="field" required=""><button class="form-button" wized="apiRequestButton">
-                    <h6 class="heading-3">Generate</h6>
-                    <div wized-cloak="" wized="preLoader" class="html-loader is-button w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
-                        <path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"></path>
-                        <path fill="currentColor" d="M10.72,19.9a8,8,0,0,1-6.5-9.79A7.77,7.77,0,0,1,10.4,4.16a8,8,0,0,1,9.49,6.52A1.54,1.54,0,0,0,21.38,12h.13a1.37,1.37,0,0,0,1.38-1.54,11,11,0,1,0-12.7,12.39A1.54,1.54,0,0,0,12,21.34h0A1.47,1.47,0,0,0,10.72,19.9Z"></path>
-                          <animatetransform attributename="transform" dur="0.75s" repeatcount="indefinite" type="rotate" values="0 12 12;360 12 12">
-                      </animatetransform></svg></div>
-                    <div wized="generateIcon" class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24">
-                        <path fill="currentColor" d="M11 13V3.59c0-.49-.63-.69-.91-.29l-6.54 9.41c-.23.33.01.79.41.79h6.54c.28 0 .5-.22.5-.5m9.99-.02C20.72 7.07 15.9 2.32 13.4 1.23c-.37-.16-.77.2-.67.59c.3 1.13.76 3.28.76 5.68c0 2.44-.49 4.39-.78 5.35c-.1.32.14.65.48.65h7.28c.29 0 .53-.24.52-.52M20.62 15H3.38c-.73 0-1.22.76-.92 1.42c.43.92 1.07 1.71 1.86 2.31c.38-.16.74-.38 1.06-.63c.35-.29.87-.29 1.23 0c.67.53 1.49.9 2.39.9c.9 0 1.72-.37 2.39-.91c.35-.28.87-.28 1.22 0c.67.54 1.49.91 2.39.91c.9 0 1.72-.37 2.39-.91c.35-.29.87-.28 1.23 0c.32.26.67.48 1.06.63c.79-.6 1.43-1.39 1.86-2.31c.3-.65-.19-1.41-.92-1.41M22 22c0-.55-.45-1-1-1c-.87 0-1.73-.24-2.53-.7a.954.954 0 0 0-.94 0c-1.59.9-3.47.9-5.06 0a.98.98 0 0 0-.94 0c-1.59.9-3.47.9-5.06 0a.98.98 0 0 0-.94 0c-.8.46-1.66.7-2.53.7c-.55 0-1 .45-1 1s.45 1 1 1c1.15 0 2.3-.31 3.33-.94c1.66 1.11 3.78 1.01 5.58.14a6.36 6.36 0 0 0 6.09.05c.95.5 1.97.75 3 .75c.55 0 1-.45 1-1"></path>
-                      </svg></div>
-                  </button></div>
-              </form>
-              <div class="w-form-done">
-                <div>Thank you! Your juice has been received!</div>
-              </div>
-              <div class="w-form-fail">
-                <div>Oops! Something went wrong while submitting the juice.</div>
-              </div>
-            </div>
-          </div>
-          <div wized-cloak="" wized="loaderHolder" data-w-id="bf61b600-ef50-d800-9ddc-e455960ec0a0" style="opacity:0" class="loading-module">
-            <image class="gif" wized="gifLoader"></image>
-            <div class="linear-content-holder">
-              <h1 class="heading">Rendering</h1>
-              <div class="html-loader is-video w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24">
-                  <path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"></path>
-                  <path fill="currentColor" d="M10.72,19.9a8,8,0,0,1-6.5-9.79A7.77,7.77,0,0,1,10.4,4.16a8,8,0,0,1,9.49,6.52A1.54,1.54,0,0,0,21.38,12h.13a1.37,1.37,0,0,0,1.38-1.54,11,11,0,1,0-12.7,12.39A1.54,1.54,0,0,0,12,21.34h0A1.47,1.47,0,0,0,10.72,19.9Z"></path>
-                    <animatetransform attributename="transform" dur="0.75s" repeatcount="indefinite" type="rotate" values="0 12 12;360 12 12">
-                </animatetransform></svg></div>
-            </div>
-          </div>
-          <div wized-cloak="" wized="responseHolder" data-w-id="9777ae42-50b6-68d2-49ec-4cbb244b5ac0" style="opacity:0" class="response-module">
-            <div class="setting-holder"><button class="button" wized="downloadResponse">
-                <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24">
-                    <path fill="currentColor" d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10s10-4.49 10-10S17.51 2 12 2m-1 8V6h2v4h3l-4 4l-4-4zm6 7H7v-2h10z"></path>
+  <div class="page-div">
+    <section><img src="images/dripmelon_logo.png" loading="lazy" width="500" sizes="(max-width: 767px) 80vw, 500px" alt="" srcset="images/dripmelon_logo.png 500w, images/dripmelon_logo.png 800w, images/dripmelon_logo.png 1080w, images/dripmelon_logo.png 1428w"></section>
+     <section>
+      <h1 class="heading-7">Use your Melon to Create the Juice!</h1>
+    </section>
+    <div data-w-id="6cc526d0-6c0d-f56f-c80d-2fbae7266ca6" style="opacity:0" class="generator-holder">
+      <div wized-skeleton="1000" wized="inputHolder" class="api-module">
+        <div data-w-id="9dbb53c0-0938-26ac-414f-e5ae3649c8be" style="opacity:0;-webkit-transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 90%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="api-form-holder w-form">
+          <form id="email-form" name="email-form" data-name="Email Form" method="get" wized="apiForm" class="api-form" data-wf-page-id="65cc28b0e6009966024d9a3c" data-wf-element-id="9dbb53c0-0938-26ac-414f-e5ae3649c8bf">
+            <div class="w-layout-hflex prompt-holder"><input class="input-field w-input" wized="apiFieldInput" maxlength="256" name="field" data-name="Field" placeholder="Describe a juicy photo.." type="text" id="field" required=""><button class="form-button" wized="apiRequestButton">
+                <h6 class="heading-3">Generate</h6>
+                <div wized-cloak="" wized="preLoader" class="html-loader is-button w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24">
+                    <path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"></path>
+                    <path fill="currentColor" d="M10.72,19.9a8,8,0,0,1-6.5-9.79A7.77,7.77,0,0,1,10.4,4.16a8,8,0,0,1,9.49,6.52A1.54,1.54,0,0,0,21.38,12h.13a1.37,1.37,0,0,0,1.38-1.54,11,11,0,1,0-12.7,12.39A1.54,1.54,0,0,0,12,21.34h0A1.47,1.47,0,0,0,10.72,19.9Z"></path>
+                      <animatetransform attributename="transform" dur="0.75s" repeatcount="indefinite" type="rotate" values="0 12 12;360 12 12">
+                  </animatetransform></svg></div>
+                <div wized="generateIcon" class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24">
+                    <path fill="currentColor" d="M11 13V3.59c0-.49-.63-.69-.91-.29l-6.54 9.41c-.23.33.01.79.41.79h6.54c.28 0 .5-.22.5-.5m9.99-.02C20.72 7.07 15.9 2.32 13.4 1.23c-.37-.16-.77.2-.67.59c.3 1.13.76 3.28.76 5.68c0 2.44-.49 4.39-.78 5.35c-.1.32.14.65.48.65h7.28c.29 0 .53-.24.52-.52M20.62 15H3.38c-.73 0-1.22.76-.92 1.42c.43.92 1.07 1.71 1.86 2.31c.38-.16.74-.38 1.06-.63c.35-.29.87-.29 1.23 0c.67.53 1.49.9 2.39.9c.9 0 1.72-.37 2.39-.91c.35-.28.87-.28 1.22 0c.67.54 1.49.91 2.39.91c.9 0 1.72-.37 2.39-.91c.35-.29.87-.28 1.23 0c.32.26.67.48 1.06.63c.79-.6 1.43-1.39 1.86-2.31c.3-.65-.19-1.41-.92-1.41M22 22c0-.55-.45-1-1-1c-.87 0-1.73-.24-2.53-.7a.954.954 0 0 0-.94 0c-1.59.9-3.47.9-5.06 0a.98.98 0 0 0-.94 0c-1.59.9-3.47.9-5.06 0a.98.98 0 0 0-.94 0c-.8.46-1.66.7-2.53.7c-.55 0-1 .45-1 1s.45 1 1 1c1.15 0 2.3-.31 3.33-.94c1.66 1.11 3.78 1.01 5.58.14a6.36 6.36 0 0 0 6.09.05c.95.5 1.97.75 3 .75c.55 0 1-.45 1-1"></path>
                   </svg></div>
-              </button><button class="button" wized="restartGeneration">
-                <div class="icon-embed-xsmall-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24">
-                    <path fill="currentColor" d="M12 18c-3.31 0-6-2.69-6-6c0-1.01.25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 0 0 4 12c0 4.42 3.58 8 8 8v3l4-4l-4-4zm0-14V1L8 5l4 4V6c3.31 0 6 2.69 6 6c0 1.01-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0 0 20 12c0-4.42-3.58-8-8-8"></path>
-                  </svg></div>
-              </button></div><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" wized="apiResponse" alt="" class="response-image">
+              </button></div>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your juice has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the juice.</div>
           </div>
         </div>
-        <section><img src="images/dripmelon_app_qr.png" loading="lazy" width="100" sizes="100px" alt="" srcset="images/dripmelon_app_qr-p-500.png 500w, images/dripmelon_app_qr-p-800.png 800w, images/dripmelon_app_qr-p-1080.png 1080w, images/dripmelon_app_qr-p-1600.png 1600w, images/dripmelon_app_qr-p-2000.png 2000w, images/dripmelon_app_qr.png 2350w"></section>
+      </div>
+      <div wized-cloak="" wized="loaderHolder" data-w-id="bf61b600-ef50-d800-9ddc-e455960ec0a0" style="opacity:0" class="loading-module">
+        <image class="gif" wized="gifLoader"></image>
+        <div class="linear-content-holder">
+          <h1 class="heading">Rendering</h1>
+          <div class="html-loader is-video w-embed"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24">
+              <path fill="currentColor" d="M12,1A11,11,0,1,0,23,12,11,11,0,0,0,12,1Zm0,19a8,8,0,1,1,8-8A8,8,0,0,1,12,20Z" opacity=".25"></path>
+              <path fill="currentColor" d="M10.72,19.9a8,8,0,0,1-6.5-9.79A7.77,7.77,0,0,1,10.4,4.16a8,8,0,0,1,9.49,6.52A1.54,1.54,0,0,0,21.38,12h.13a1.37,1.37,0,0,0,1.38-1.54,11,11,0,1,0-12.7,12.39A1.54,1.54,0,0,0,12,21.34h0A1.47,1.47,0,0,0,10.72,19.9Z"></path>
+                <animatetransform attributename="transform" dur="0.75s" repeatcount="indefinite" type="rotate" values="0 12 12;360 12 12">
+            </animatetransform></svg></div>
+        </div>
+      </div>
+      <div wized-cloak="" wized="responseHolder" data-w-id="9777ae42-50b6-68d2-49ec-4cbb244b5ac0" style="opacity:0" class="response-module">
+        <div class="setting-holder"><button class="button" wized="downloadResponse">
+            <div class="icon-embed-xsmall w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24">
+                <path fill="currentColor" d="M12 2C6.49 2 2 6.49 2 12s4.49 10 10 10s10-4.49 10-10S17.51 2 12 2m-1 8V6h2v4h3l-4 4l-4-4zm6 7H7v-2h10z"></path>
+              </svg></div>
+          </button><button class="button" wized="restartGeneration">
+            <div class="icon-embed-xsmall-2 w-embed"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--ic" width="100%" height="100%" preserveaspectratio="xMidYMid meet" viewbox="0 0 24 24">
+                <path fill="currentColor" d="M12 18c-3.31 0-6-2.69-6-6c0-1.01.25-1.97.7-2.8L5.24 7.74A7.93 7.93 0 0 0 4 12c0 4.42 3.58 8 8 8v3l4-4l-4-4zm0-14V1L8 5l4 4V6c3.31 0 6 2.69 6 6c0 1.01-.25 1.97-.7 2.8l1.46 1.46A7.93 7.93 0 0 0 20 12c0-4.42-3.58-8-8-8"></path>
+              </svg></div>
+          </button></div><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" wized="apiResponse" alt="" class="response-image">
       </div>
     </div>
+    <section><img src="images/dripmelon_app_qr.png" loading="lazy" width="100" sizes="100px" alt="" srcset="images/dripmelon_app_qr.png 500w, images/dripmelon_app_qr.png 800w, images/dripmelon_app_qr.png 1080w, images/dripmelon_app_qr.png 1600w, images/dripmelon_app_qr.png 2000w, images/dripmelon_app_qr.png 2350w"></section>
   </div>
   <a data-w-id="841c924f-de53-d60a-5de9-aef9f1057d2a" style="opacity:0" href="https://www.youtube.com/@WizedDev" target="_blank" class="powered-badge w-inline-block">
     <div class="html-embed is-wized w-embed"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 118.2266 33.7529" fill="CurrentColor" height="100%">
@@ -93,7 +89,7 @@
       </svg></div>
     <h1 class="heading-4">X</h1>
     <div class="html-embed is-webflow w-embed"><svg width="7.5rem" height="auto" viewbox="0 0 108 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <title>Webflow</title>
+        <title>DripMelon</title>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M28.8562 0.5L19.6486 18.5H11L14.8534 11.04H14.6805C11.5015 15.1668 6.7583 17.8835 0 18.5V11.1433C0 11.1433 4.32345 10.8879 6.86508 8.21575H0V0.500142H7.71561V6.84612L7.88878 6.84541L11.0417 0.500142H16.8768V6.80588L17.0499 6.8056L20.3211 0.5H28.8562Z" fill="currentColor"></path>
         <path d="M79.0662 16.5132H81.5511V2.25H79.0662V16.5132Z" fill="currentColor"></path>
         <path fill-rule="evenodd" clip-rule="evenodd" d="M65.3675 16.3675C65.9075 16.592 66.4567 16.7043 67.015 16.7043C67.9373 16.7043 68.7626 16.4798 69.4908 16.0307C70.2189 15.5817 70.7833 14.9628 71.1838 14.1739C71.5843 13.379 71.7845 12.4778 71.7845 11.4705C71.7845 10.4632 71.5782 9.56211 71.1656 8.76718C70.7529 7.97226 70.1795 7.35634 69.4452 6.91943C68.711 6.47646 67.8766 6.25801 66.9421 6.26407C66.3475 6.26407 65.7771 6.37937 65.2309 6.60996C64.6848 6.84055 64.2297 7.16823 63.8656 7.593C63.8375 7.62534 63.8102 7.658 63.7837 7.69099V2.2591H61.2897V16.5132H63.7655L63.7605 15.1816C63.8245 15.2601 63.893 15.3368 63.9657 15.4118C64.3601 15.8184 64.8274 16.1369 65.3675 16.3675ZM67.9161 14.0647C67.5095 14.3135 67.0453 14.4379 66.5234 14.4379C66.0076 14.4379 65.5343 14.3104 65.1035 14.0556C64.6726 13.7946 64.3298 13.4397 64.0749 12.9906C63.8261 12.5416 63.7017 12.0318 63.7017 11.4614C63.6957 10.891 63.817 10.3813 64.0658 9.93227C64.3207 9.47716 64.6635 9.1252 65.0944 8.87641C65.5252 8.62155 66.0016 8.49715 66.5234 8.50322C67.0453 8.49715 67.5095 8.61851 67.9161 8.86731C68.3287 9.11003 68.6442 9.45895 68.8627 9.91406C69.0872 10.3631 69.1995 10.8789 69.1995 11.4614C69.1995 12.044 69.0872 12.5598 68.8627 13.0088C68.6442 13.4579 68.3287 13.8098 67.9161 14.0647Z" fill="currentColor"></path>
